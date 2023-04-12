@@ -53,21 +53,21 @@ export default function Header() {
                 </button>
               </div>
               <div className="offcanvas-body my-5">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
                     <Link
-                      class="nav-link btn-shrink text-dark fs-4"
+                      className="nav-link btn-shrink text-dark fs-4"
                       href={"#"}
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal"
                     >
-                      <i class="fa-solid fa-taxi me-2"></i>
+                      <i className="fa-solid fa-taxi me-2"></i>
                       Book a Ride
                     </Link>
                   </li>
-                  <li class="nav-item">
+                  <li className="nav-item">
                     <Link
-                      class="nav-link btn-shrink text-dark fs-4"
+                      className="nav-link btn-shrink text-dark fs-4"
                       data-bs-toggle="collapse"
                       href="#collapseExample"
                       role="button"
@@ -77,62 +77,68 @@ export default function Header() {
                     >
                       Company
                       <i
-                        class={`fa-solid fa-caret-${
+                        className={`fa-solid fa-caret-${
                           isOpen ? "down" : "right"
                         } ms-4`}
                       ></i>
                     </Link>
                   </li>
-                  <div class="collapse" id="collapseExample">
+                  <div className="collapse" id="collapseExample">
                     <ul>
                       <li>
-                        <Link class="text-dark" href="#">
+                        <Link className="text-dark" href="#">
                           About us
                         </Link>
                       </li>
                       <li>
-                        <Link class="text-dark" href="#">
+                        <Link className="text-dark" href="#">
                           How Caber works
                         </Link>
                       </li>
                       <li>
-                        <Link class="text-dark" href="#">
+                        <Link className="text-dark" href="#">
                           Blog
                         </Link>
                       </li>
                       <li>
-                        <Link class="text-dark" href="#">
+                        <Link className="text-dark" href="#">
                           Careers
                         </Link>
                       </li>
                     </ul>
                   </div>
 
-                  <li class="nav-item">
+                  <li className="nav-item">
                     <Link
-                      class="nav-link btn-shrink text-dark fs-4"
+                      className="nav-link btn-shrink text-dark fs-4"
                       aria-current="page"
                       href="#"
                     >
                       Safety
                     </Link>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link btn-shrink text-dark fs-4" href="#">
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link btn-shrink text-dark fs-4"
+                      href="#"
+                    >
                       Help
                     </Link>
                   </li>
-                  <li class="nav-item">
+                  <li className="nav-item">
                     <Link
-                      class="nav-link btn-shrink text-dark fs-4"
+                      className="nav-link btn-shrink text-dark fs-4"
                       aria-current="page"
                       href="#"
                     >
                       Log in
                     </Link>
                   </li>
-                  <li class="nav-item border border-2 border-dark">
-                    <Link class="nav-link btn-shrink text-dark fs-4" href="#">
+                  <li className="nav-item border border-2 border-dark">
+                    <Link
+                      className="nav-link btn-shrink text-dark fs-4"
+                      href="#"
+                    >
                       Sign up
                     </Link>
                   </li>
@@ -143,21 +149,21 @@ export default function Header() {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
                   <Link
-                    class="nav-link btn-shrink active"
+                    className="nav-link btn-shrink active"
                     href={"#"}
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
-                    <i class="fa-solid fa-taxi me-2"></i>
+                    <i className="fa-solid fa-taxi me-2"></i>
                     Book a Ride
                   </Link>
                 </li>
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <Link
-                    class="nav-link btn-shrink active dropdown-toggle"
+                    className="nav-link btn-shrink active dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -166,40 +172,43 @@ export default function Header() {
                   >
                     Company
                   </Link>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
                     <li>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         About us
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         How Caber works
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         Blog
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         Careers
                       </Link>
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link btn-shrink active"
+                    className="nav-link btn-shrink active"
                     aria-current="page"
                     href="#"
                   >
                     Safety
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link btn-shrink active" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link btn-shrink active" href="#">
                     Help
                   </Link>
                 </li>
@@ -209,18 +218,18 @@ export default function Header() {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
                   <Link
-                    class="nav-link btn-shrink active"
+                    className="nav-link btn-shrink active"
                     aria-current="page"
                     href="#"
                   >
                     Log in
                   </Link>
                 </li>
-                <li class="nav-item btn-shrink bg-white ms-2 rounded-0">
-                  <Link class="nav-link text-dark" href="#">
+                <li className="nav-item btn-shrink bg-white ms-2 rounded-0">
+                  <Link className="nav-link text-dark" href="#">
                     Sign up
                   </Link>
                 </li>

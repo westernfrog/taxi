@@ -18,6 +18,7 @@ export default function RideWithCaber(params) {
                     src={
                       "https://cdn-icons-png.flaticon.com/512/1048/1048339.png"
                     }
+                    alt="caber"
                     width={110}
                     height={110}
                   />
@@ -44,6 +45,7 @@ export default function RideWithCaber(params) {
                     src={
                       "https://cdn-icons-png.flaticon.com/512/1048/1048334.png"
                     }
+                    alt="caber"
                     width={110}
                     height={110}
                   />
@@ -70,6 +72,7 @@ export default function RideWithCaber(params) {
                     src={
                       "https://cdn-icons-png.flaticon.com/512/1048/1048315.png"
                     }
+                    alt="caber"
                     width={110}
                     height={110}
                   />
@@ -96,6 +99,7 @@ export default function RideWithCaber(params) {
                     src={
                       "https://cdn-icons-png.flaticon.com/512/1048/1048313.png"
                     }
+                    alt="caber"
                     width={110}
                     height={110}
                   />
