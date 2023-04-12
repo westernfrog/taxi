@@ -9,7 +9,7 @@ export default function Overview(params) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(pickupTime);
+    console.log(pickupTime.split(":")[0]);
   };
 
   const handleTimeChange = (event) => {
