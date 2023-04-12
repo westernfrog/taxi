@@ -2,7 +2,7 @@ export default function Overview(params) {
   return (
     <>
       <div class="row py-0 py-lg-4 d-flex justify-content-between">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <h1 class="display-4 fw-bold lh-1">We&apos;ll take you places</h1>
           <h1 className="display-5 lh-1">where ever,</h1>
           <h1 className="display-5 lh-1">when ever.</h1>
@@ -85,7 +85,7 @@ export default function Overview(params) {
             </div>
           </div>
         </div>
-        <div class="col-md-7 bg-taxi"></div>
+        <div class="col-md-6 bg-taxi"></div>
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Overview from "@/components/Overview";
 import RideWithCaber from "@/components/RideWithCaber";
 
@@ -8,6 +9,7 @@ export default function Home() {
         <Overview />
       </div>
       <RideWithCaber />
+      <Footer />
     </>
   );
 }

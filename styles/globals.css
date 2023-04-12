@@ -43,3 +43,15 @@ button,
 input {
   box-shadow: none !important;
 }
+.arrow-hover > .fa-arrow-right {
+  transition: transform 300ms ease-in-out;
+}
+.arrow-hover:hover > .fa-arrow-right {
+  transform: translateX(20px);
+  transition: transform 300ms ease-in-out;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+  margin: 12px 0;
+}
